@@ -13,77 +13,47 @@
 
     <!-- colors  #000000   #222222 #48A6A7 #9ACBD0-->
   </head>
-  <body class="bg-[#000000] text-[#1DCD9F] font-serif ">
+  <body class="bg-[#000000] text-[#1DCD9F] font-mono relative ">
     <!-- Header Section -->
 
-    <header class="bg-[#000000] sticky top-0 z-10 shadow-2xl">
-      <nav class="flex justify-between px-6 text-sm items-center">
-        <!-- PORTFOLIO icon -->
+<header class="fixed top-6 w-full z-[9999] ">
+  <div class="flex justify-center mx-auto w-fit items-center bg-black px-6 py-1 rounded-full text-white shadow-lg shadow-gray-300 ">
 
-        <a
-          href="#"
-          class="transition duration-300 hover:scale-105 text-lg font-bold rounded-4xl border-2 border-[#169976] py-1 pr-2 shadow-xl my-2"
-        >
-          <span class="bg-[#169976] text-[#000000] py-2 px-2 rounded-4xl"
-            >PORT</span
-          ><span class=""> FOLIO</span>
-        </a>
-        <div class="md:flex md:items-center hidden">
+  
+   <div class="md:flex md:items-center">
           <!-- Navigation links -->
 
           <a
             href="#"
-            class="hover:border-b-2 hover:border-white border-b-2 border-[#000000] px-3 pb-5 pt-4 transition duration-500"
+            class="hover:border-b-2 hover:border-white border-b-2 border-transparent px-3 pb-5 pt-4 transition duration-500"
             >Home</a
           >
           <a
             href="#about"
-            class="hover:border-b-2 hover:border-white border-b-2 border-[#000000] px-3 pb-5 pt-4 transition duration-500"
+            class="hover:border-b-2 hover:border-white border-b-2 border-transparent px-3 pb-5 pt-4 transition duration-500"
             >About</a
           >
           <a
             href="#skills"
-            class="hover:border-b-2 hover:border-white border-b-2 border-[#000000] px-3 pb-5 pt-4 transition duration-500"
+            class="hover:border-b-2 hover:border-white border-b-2 border-transparent px-3 pb-5 pt-4 transition duration-500"
             >Skills</a
           >
           <a
             href="#services"
-            class="hover:border-b-2 hover:border-white border-b-2 border-[#000000] px-3 pb-5 pt-4 transition duration-500"
+            class="hover:border-b-2 hover:border-white border-b-2 border-transparent px-3 pb-5 pt-4 transition duration-500"
             >Services</a
           >
           <a
             href="#contact"
-            class="hover:border-b-2 hover:border-white border-b-2 border-[#000000] px-3 pb-5 pt-4 transition duration-500"
+            class="hover:border-b-2 hover:border-white border-b-2 border-transparent px-3 pb-5 pt-4 transition duration-500"
             >Contact</a
           >
 
           <!-- toggle button for light and dark mode -->
-
-          <label class="inline-flex items-center cursor-pointer px-3 pb-5 pt-4">
-            <input type="checkbox" value="" class="sr-only peer" />
-            <div
-              class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-gray-300 dark:peer-focus:ring-gray-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-600 dark:peer-checked:bg-gray-600"
-            ></div>
-          </label>
         </div>
 
-        <!-- 3 horizontal line icon for mobiles -->
-
-        <div class="md:hidden">
-          <svg
-            class="w-6 h-6 text-[#169976] dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 17 14"
-          >
-            <path
-              d="M16 2H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 0 1 0 2Z"
-            />
-          </svg>
         </div>
-      </nav>
-    </header>
+</header>
 
     <!-- Home Section   -->
 
@@ -134,7 +104,7 @@
         </div>
         <div class="flex justify-center gap-3 items-center flex-col px-6 py-4">
           <h1
-            class="text-3xl lg:text-5xl md:text-4xl animate-bounce font-extrabold text-center"
+            class="text-3xl lg:text-5xl md:text-4xl animate-bounce font-extrabold text-center z-10"
           >
             Hi, I'm Aayush Joshi
           </h1>
@@ -208,7 +178,7 @@
       <div
         class="flex justify-center items-center flex-col w-full min-h-screen"
       >
-        <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold xl:mb-10">
+        <h2 class="text-2xl lg:text-4xl md:text-3xl font-bold mt-14">
           My Skills
         </h2>
 
@@ -437,7 +407,7 @@
 
         <!-- project cards section  -->
 
-        <div class="mx-10 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+        <div class="mx-10 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 z-10">
           <div
             class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
           >
